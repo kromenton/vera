@@ -133,10 +133,11 @@ footer .footer_logo {
 
 footer .footer_logo a {
   color: #000;
-  font: 14px 'Roboto', sans-serif;
+  font: 18px 'Microsoft Yi Baiti', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  text-decoration-thickness: from-font;
 }
 
 footer .footer_logo .links {
@@ -155,9 +156,9 @@ footer .footer_logo .links ul li {
   margin-bottom: 12px;
 }
 
-footer .footer_logo .links ul li:first-child {
+footer .footer_logo ul li:first-child {
   color: #000;
-  font: 14px 'Roboto', sans-serif;
+  font: 18px 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 23px;
@@ -166,6 +167,11 @@ footer .footer_logo .links ul li:first-child {
 
 footer .footer_logo .links ul a {
   text-decoration: none;
+}
+
+footer .footer_logo .about ul li {
+  text-decoration-thickness: from-font;
+  list-style: none;
 }
 
 footer .logo_social {
