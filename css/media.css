@@ -30,14 +30,8 @@
         display: none;
     }
 
-    .main_img {
-        display: flex !important;
-
-    }
-
-    .main_img img {
-        width: 100%;
-        height: 100vh;
+    #carouselMobile {
+        display: block !important;
     }
 
     .carousel-control-next-icon {

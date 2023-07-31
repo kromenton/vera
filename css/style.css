@@ -10,9 +10,6 @@
   /* Соответствует значению normal */
   font-family: "Microsoft Yi Baiti";
   src: url("../fonts/msyi.ttf"); }
-.carousel-item img {
-  height: 100vh; }
-
 header {
   margin-bottom: 30px;
   background-color: #E2E8E4; }
@@ -23,8 +20,11 @@ header {
     margin-right: 30px;
     font-size: 1.25rem; }
 
-.main_img {
+#carouselMobile {
   display: none; }
+
+.carousel-item img {
+  height: 100vh; }
 
 .vera {
   width: 100%;

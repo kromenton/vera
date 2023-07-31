@@ -14,9 +14,7 @@
 }
 
 
-.carousel-item img {
-  height: 100vh;
-}
+
 
 header {
   margin-bottom: 30px;
@@ -36,8 +34,12 @@ background-color: #E2E8E4;
   }
 }
 
-.main_img {
+#carouselMobile {
   display: none;
+}
+
+.carousel-item img {
+  height: 100vh;
 }
 
 .vera {
