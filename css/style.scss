@@ -15,14 +15,20 @@
 
 
 
-
 header {
-  margin-bottom: 30px;
+  margin: 30px 120px 30px 120px;
 
   nav {
     .fa-brands {
       margin-top: 16px;
       color: #000000;
+    }
+    .vermir {
+      margin-right: 45px;
+      font-family: "Microsoft Yi Baiti", sans-serif;
+      font-stretch: ultra-expanded;
+      font-weight: 200;
+      font-size:44px;
     }
   }
 
@@ -41,6 +47,8 @@ header {
 .carousel-item img {
   height: 100vh;
 }
+
+
 
 .vera {
   width: 100%;
@@ -81,6 +89,8 @@ header {
 .gal {
   padding: 0;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 #myBtn {
