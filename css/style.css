@@ -20,6 +20,8 @@ header {
     font-stretch: ultra-expanded;
     font-weight: 200;
     font-size: 44px; }
+  header nav .burger {
+    margin: auto; }
   header .navbar-collapse a {
     margin-right: 30px;
     font-size: 1.25rem; }
