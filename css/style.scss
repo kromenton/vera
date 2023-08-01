@@ -8,11 +8,13 @@
 }
 
 @font-face {
-  font-weight: 400; /* Соответствует значению normal */
-  font-family: "Microsoft Yi Baiti";
-  src: url("../fonts/msyi.ttf");
-}
+  font-family: 'microsoft_yi_baitiregular';
+  src: url('../fonts/msyi-webfont.woff2') format('woff2'),
+  url('../fonts/msyi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
 
 
 header {
@@ -23,12 +25,13 @@ header {
       margin-top: 16px;
       color: #000000;
     }
+
     .vermir {
       margin-right: 45px;
       font-family: "Microsoft Yi Baiti", sans-serif;
       font-stretch: ultra-expanded;
       font-weight: 200;
-      font-size:44px;
+      font-size: 44px;
     }
   }
 
@@ -49,7 +52,6 @@ header {
 }
 
 
-
 .vera {
   width: 100%;
   position: absolute;
@@ -67,7 +69,6 @@ header {
     margin-bottom: 35px;
   }
 
-  //.list-main {
   a {
     margin: 15px 15px 0 15px;
     font-family: "Microsoft Yi Baiti", sans-serif;
@@ -82,7 +83,7 @@ header {
       color: white;
     }
 
-    //}
+
   }
 }
 
@@ -91,6 +92,7 @@ header {
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
+
   img {
     margin-right: 5px;
   }
@@ -117,7 +119,7 @@ header {
 }
 
 footer {
-margin-top: 20px;
+  margin-top: 20px;
   padding-top: 3rem;
 }
 
@@ -130,6 +132,8 @@ footer .footer_logo {
 
   .logo {
     font-family: "Microsoft Yi Baiti", sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: 200;
     font-size: 38px;
   }
 }

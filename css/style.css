@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(bootstrap.css);
 @import url(media.css);
 * {
@@ -6,10 +5,10 @@
   margin: 0; }
 
 @font-face {
-  font-weight: 400;
-  /* Соответствует значению normal */
-  font-family: "Microsoft Yi Baiti";
-  src: url("../fonts/msyi.ttf"); }
+  font-family: 'microsoft_yi_baitiregular';
+  src: url("../fonts/msyi-webfont.woff2") format("woff2"), url("../fonts/msyi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 header {
   margin: 30px 120px 30px 120px; }
   header nav .fa-brands {
@@ -108,6 +107,8 @@ footer .footer_logo {
   padding-right: 40px; }
   footer .footer_logo .logo {
     font-family: "Microsoft Yi Baiti", sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: 200;
     font-size: 38px; }
 
 footer .footer_logo a {
