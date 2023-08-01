@@ -11,10 +11,9 @@
   font-family: "Microsoft Yi Baiti";
   src: url("../fonts/msyi.ttf"); }
 header {
-  margin-bottom: 30px;
-  background-color: #E2E8E4; }
+  margin-bottom: 30px; }
   header nav .fa-brands {
-    margin-right: 30px;
+    margin-top: 16px;
     color: #000000; }
   header .navbar-collapse a {
     margin-right: 30px;
@@ -88,7 +87,6 @@ header {
   /* Add a dark-grey background on hover */ }
 
 footer {
-  background-color: #e2e8e4;
   margin-top: 20px;
   padding-top: 3rem; }
 
