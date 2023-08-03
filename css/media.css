@@ -19,12 +19,13 @@
 
     .gal img {
         margin-bottom: 5px;
-        margin-right: 0 ;
+        margin-right: 0;
     }
 }
 
 
 @media only screen and (max-width: 991px) {
+
 
     .show {
         margin-top: 20px;
@@ -35,23 +36,15 @@
     }
 
     .navsmall {
-        padding: 30px 50px 30px 50px ;
+        padding: 30px 50px 30px 50px;
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
 }
 
-@media only screen and (max-width: 576px) {
-header {
-    padding: 0;
-}
-    
+@media only screen and (max-width: 768px) {
 
-    
-   .navsmall {
-       padding: 0;
-   }
 
     #carouselMain {
         display: none;
@@ -68,6 +61,18 @@ header {
     .carousel-control-prev-icon {
         display: none;
     }
+}
+
+
+@media only screen and (max-width: 576px) {
+    header {
+        padding: 0;
+    }
+
+
+    .navsmall {
+        padding: 0;
+    }
 
 
     .vera h1 {
@@ -77,7 +82,6 @@ header {
     .vera a {
         font-size: 28px !important;
     }
-
 
 
     footer .footer_logo {
