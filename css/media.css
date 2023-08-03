@@ -108,5 +108,11 @@
 }
 
 @media only screen and (max-width: 426px) {
-
+.vera {
+    bottom: 36%;
+}
+    
+    .vera h1 {
+        font-size: 36px !important;
+    }
 }
