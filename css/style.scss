@@ -1,5 +1,4 @@
 @import "bootstrap.css";
-@import "media.css";
 
 
 * {
@@ -18,7 +17,7 @@
 
 
 header {
-  margin: 30px 120px 30px 120px;
+  padding: 30px 120px 30px 120px;
 
   nav {
     .fa-brands {
@@ -29,13 +28,8 @@ header {
     .vermir {
       margin-right: 45px;
       font-family: "Microsoft Yi Baiti", sans-serif;
-      font-stretch: ultra-expanded;
       font-weight: 200;
       font-size: 44px;
-    }
-
-    .burger {
-      margin: auto;
     }
   }
 

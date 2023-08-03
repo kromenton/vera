@@ -1,5 +1,4 @@
 @import url(bootstrap.css);
-@import url(media.css);
 * {
   padding: 0;
   margin: 0; }
@@ -10,18 +9,15 @@
   font-weight: normal;
   font-style: normal; }
 header {
-  margin: 30px 120px 30px 120px; }
+  padding: 30px 120px 30px 120px; }
   header nav .fa-brands {
     margin-top: 16px;
     color: #000000; }
   header nav .vermir {
     margin-right: 45px;
     font-family: "Microsoft Yi Baiti", sans-serif;
-    font-stretch: ultra-expanded;
     font-weight: 200;
     font-size: 44px; }
-  header nav .burger {
-    margin: auto; }
   header .navbar-collapse a {
     margin-right: 30px;
     font-size: 1.25rem; }

@@ -7,6 +7,11 @@
 }
 
 @media only screen and (max-width: 1439px) {
+
+    header {
+        padding: 0;
+    }
+
     .gal {
         display: flex;
         flex-direction: column;
@@ -14,17 +19,39 @@
 
     .gal img {
         margin-bottom: 5px;
+        margin-right: 0 ;
     }
 }
 
 
 @media only screen and (max-width: 991px) {
+
+    .show {
+        margin-top: 20px;
+    }
+
     .navbar-nav {
         text-align: center;
+    }
+
+    .navsmall {
+        padding: 30px 50px 30px 50px ;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
 @media only screen and (max-width: 576px) {
+header {
+    padding: 0;
+}
+    
+
+    
+   .navsmall {
+       padding: 0;
+   }
 
     #carouselMain {
         display: none;
@@ -74,5 +101,8 @@
     .about li {
         margin-bottom: 12px;
     }
+}
+
+@media only screen and (max-width: 426px) {
 
 }
