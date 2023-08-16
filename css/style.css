@@ -96,14 +96,13 @@ header {
 
 .about_vera {
   display: flex;
-  margin-top: 150px; }
+  margin: 100px 140px 0 140px; }
 
 .about_vera p {
-  margin: 40px 0; }
+  margin-bottom: 115px; }
 
 .about_vera img {
-  width: 517px;
-  margin-right: 38px; }
+  margin-right: 20px; }
 
 .getintouch {
   border: solid 1px #000000;
