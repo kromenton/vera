@@ -18,6 +18,8 @@
 
 header {
   padding: 30px 120px 30px 120px;
+  background-color: #f4f2ee;
+  margin-bottom: 5px;
 
   nav {
     .fa-brands {
@@ -115,9 +117,42 @@ header {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.about_vera {
+  display: flex;
+  margin-top: 150px;
+}
+
+.about_vera p {
+  margin: 40px 0;
+
+}
+
+.about_vera img {
+  width: 517px;
+  margin-right: 38px
+;
+}
+
+.getintouch {
+  border: solid 1px #000000;
+  color: #000000;
+  padding: 6px;
+}
+.getintouch:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer_line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
 footer {
-  margin-top: 20px;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 footer .footer_logo {
@@ -128,9 +163,6 @@ footer .footer_logo {
   padding-right: 40px;
 
   .logo {
-    font-family: "Microsoft Yi Baiti", sans-serif;
-    font-stretch: ultra-expanded;
-    font-weight: 200;
     font-size: 38px;
   }
 }
@@ -144,10 +176,14 @@ footer .footer_logo a {
   text-decoration-thickness: from-font;
 }
 
-footer .footer_logo .links {
+.contacts {
   display: flex;
-  justify-content: space-between;
 }
+
+//footer .footer_logo .links {
+//  display: flex;
+//  justify-content: space-between;
+//}
 
 footer .footer_logo .links ul li {
   color: #000;
@@ -156,18 +192,18 @@ footer .footer_logo .links ul li {
   font-weight: 400;
   line-height: 21px;
   list-style: none;
-  margin-right: 72px;
-  margin-bottom: 12px;
+  padding-left: 22px;
+  padding-top: 30px;
 }
 
-footer .footer_logo ul li:first-child {
-  color: #000;
-  font: 18px 'Microsoft Yi Baiti', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-  margin-bottom: 36px;
-}
+//footer .footer_logo ul li:first-child {
+//  color: #000;
+//  font: 18px 'Microsoft Yi Baiti', sans-serif;
+//  font-style: normal;
+//  font-weight: 400;
+//  line-height: 23px;
+//  margin-bottom: 36px;
+//}
 
 footer .footer_logo .links ul a {
   text-decoration: none;
@@ -178,28 +214,12 @@ footer .footer_logo .about ul li {
   list-style: none;
 }
 
-footer .logo_social {
-  padding-left: 25px;
-  padding-bottom: 42px;
-}
 
-footer .logo_social img {
-  margin-right: 20px;
-  margin-bottom: 25px;
-  color: #000000;
-}
-
-footer .logo_social .social {
-  padding-left: 8px;
-  max-width: 327px;
-  display: block;
-}
-
-footer p {
-  color: #000;
-  text-align: center;
-  font: 14px 'Microsoft Yi Baiti', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23.1px;
-}
+//footer p {
+//  color: #000;
+//  text-align: center;
+//  font: 14px 'Microsoft Yi Baiti', sans-serif;
+//  font-style: normal;
+//  font-weight: 400;
+//  line-height: 23.1px;
+//}
