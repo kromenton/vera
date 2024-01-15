@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal; }
 header {
-  padding: 30px 120px 30px 120px;
+  padding: 30px 120px 0 120px;
   margin-bottom: 5px; }
   header nav .fa-brands {
     margin-top: 16px;
@@ -101,18 +101,18 @@ body {
   margin: 74px 140px 0 140px; }
 
 .about_vera p {
+  margin-top: 30px;
   margin-bottom: 41px;
   font-family: "Microsoft Yi Baiti", sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 20px; }
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px; }
 
 .about_text p:nth-child(3) {
-  margin-bottom: 80px; }
+  margin-bottom: 120px; }
 
 .about_vera img {
-  margin-right: 20px;
-  margin-bottom: 104px; }
+  margin-right: 40px; }
 
 .getintouch {
   font-family: "Microsoft Yi Baiti", sans-serif;
@@ -130,6 +130,30 @@ body {
   opacity: 0.8;
   text-decoration: none; }
 
+.feedback {
+  display: flex;
+  margin: 0 140px 0 140px; }
+
+.feedback img {
+  margin-right: 40px; }
+
+.feedback_text {
+  margin-bottom: 20px; }
+
+.feedback p {
+  margin-bottom: 8px;
+  font-family: "Microsoft Yi Baiti", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px; }
+
+.feedback p:nth-child(1) {
+  margin-bottom: 20px; }
+
+.feedback_form {
+  display: flex;
+  flex-direction: column; }
+
 .footer_line {
   width: 100%;
   height: 1px;
@@ -138,7 +162,7 @@ body {
 
 footer {
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 2rem; }
 
 footer .footer_logo {
   display: flex;
