@@ -163,19 +163,20 @@ body {
 
 .feedback {
   display: flex;
-  margin: 0 140px 0 140px;
+  margin: 0 140px 70px 140px;
 }
 
 .feedback img {
+  margin-top: 7px;
   margin-right: 40px;
 }
 
 .feedback_text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .feedback p {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   font-family: "Microsoft Yi Baiti", sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -183,12 +184,16 @@ body {
 }
 
 .feedback p:nth-child(1) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .feedback_form {
   display: flex;
   flex-direction: column;
+}
+
+label {
+  margin-bottom: 0;
 }
 
 .footer_line {
@@ -199,8 +204,8 @@ body {
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 footer .footer_logo {
