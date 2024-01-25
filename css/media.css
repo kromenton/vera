@@ -98,6 +98,11 @@
     }
 }
 
+@media only screen and (max-width: 617px) {
+    .vera h1 {
+        font-size: 96px !important;
+    }
+}
 
 @media only screen and (max-width: 576px) {
     header {
