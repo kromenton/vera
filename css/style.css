@@ -27,7 +27,8 @@ header {
   display: none; }
 
 .carousel-item img {
-  height: 100vh; }
+  height: 100vh;
+  max-width: 100%; }
 
 body {
   background-color: #f4f2ee; }
@@ -98,7 +99,7 @@ body {
 
 .about_vera {
   display: flex;
-  margin: 74px 140px 0 140px; }
+  margin: 0 140px 11vh 140px; }
 
 .about_vera p {
   margin-bottom: 41px;
@@ -132,7 +133,7 @@ body {
 
 .feedback {
   display: flex;
-  margin: 74px 140px 0 140px; }
+  margin: 0 140px 11vh 140px; }
 
 .feedback img {
   margin-top: 7px;
@@ -153,7 +154,8 @@ body {
 
 .feedback_form {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 0 30px; }
 
 label {
   margin-bottom: 0; }
@@ -165,8 +167,7 @@ label {
   margin-bottom: 28px; }
 
 footer {
-  padding-top: 2rem;
-  padding-bottom: 1rem; }
+  padding-top: 2rem; }
 
 footer .footer_logo {
   display: flex;

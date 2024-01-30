@@ -48,6 +48,8 @@ header {
 
 .carousel-item img {
   height: 100vh;
+  //height: auto;
+  max-width: 100%;
 }
 
 
@@ -119,9 +121,7 @@ body {
 
 .about_vera {
   display: flex;
-  margin: 74px 140px 0 140px;
-
-
+  margin: 0 140px 11vh 140px;
 }
 
 .about_vera p {
@@ -163,7 +163,7 @@ body {
 
 .feedback {
   display: flex;
-  margin: 74px 140px 0 140px;
+  margin: 0 140px 11vh 140px;
 }
 
 .feedback img {
@@ -190,6 +190,7 @@ body {
 .feedback_form {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
 }
 
 label {
@@ -205,7 +206,7 @@ label {
 
 footer {
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  //padding-bottom: 1rem;
 }
 
 footer .footer_logo {
