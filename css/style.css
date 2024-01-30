@@ -102,7 +102,7 @@ body {
   margin: 0 140px 11vh 140px; }
 
 .about_vera p {
-  margin-bottom: 41px;
+  margin-bottom: 22px;
   font-family: "Microsoft Yi Baiti", sans-serif;
   font-weight: 500;
   font-size: 26px;
@@ -121,6 +121,7 @@ body {
   font-size: 25px;
   line-height: 20px;
   border: solid 1px #000000;
+  border-radius: 10px;
   color: #000000;
   padding: 8px;
   display: flex;

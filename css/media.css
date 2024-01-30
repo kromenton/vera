@@ -51,7 +51,7 @@
     }
 
 
-    
+
     #myBtn {
         bottom: 170px;
     }
@@ -75,6 +75,17 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .about_text p:nth-child(3) {
+        margin-bottom: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+    .about_text {
+        padding: 0 30px;
     }
 }
 
@@ -106,6 +117,22 @@
     .carousel-indicators li {
         background-color: #bec6cd;
     }
+
+    .about_vera p {
+        margin-bottom: 13px;
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .feedback p {
+        margin-bottom: 5px;
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-weight: 200;
+        font-size: 19px;
+        line-height: 24px;
+    }
 }
 
 @media only screen and (max-width: 617px) {
@@ -131,6 +158,10 @@
 
     .vera a {
         font-size: 28px !important;
+    }
+
+    .feedback_text {
+        padding: 0 30px;
     }
 
     footer .footer_logo {
