@@ -96,7 +96,7 @@
 
 }
 
-@media only screen and (max-width: 604px) {
+@media only screen and (max-width: 1024px) {
 
     .about_text {
         padding: 0 30px;
