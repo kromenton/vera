@@ -179,6 +179,13 @@
 
 }
 
+@media only screen and (max-width: 800px) {
+    footer .footer_logo {
+        flex-direction: column;
+    }
+}
+
+
 @media only screen and (max-width: 617px) {
     header {
         padding: 0;
@@ -200,10 +207,6 @@
 
     .feedback_text {
         padding: 0 30px;
-    }
-
-    footer .footer_logo {
-        flex-direction: column;
     }
 
     footer .footer_logo .links ul li {
