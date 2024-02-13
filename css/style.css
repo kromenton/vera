@@ -35,24 +35,27 @@ body {
   height: 100vh; }
 
 .vera {
-  width: 100%;
   position: absolute;
-  bottom: 46%;
-  text-align: center;
+  right: 10%;
+  bottom: 42%;
+  left: 10%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
-  padding-top: 25px; }
+  text-align: center; }
   .vera h1 {
     font-family: "Microsoft Yi Baiti", sans-serif;
     font-weight: 400;
-    font-size: 110px;
+    font-size: 7em;
     line-height: 40px;
     margin-bottom: 56px; }
   .vera a {
-    margin: 15px 15px 0 15px;
+    margin: 15px 12px 0 12px;
     font-family: "Microsoft Yi Baiti", sans-serif;
     font-stretch: ultra-expanded;
     font-weight: 200;
-    font-size: 36px;
+    font-size: 2.3em;
     color: #fff; }
     .vera a:hover {
       text-decoration: solid underline white 1px;
@@ -107,11 +110,11 @@ body {
   font-weight: 500;
   font-size: 26px;
   line-height: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   text-align: left; }
 
-.about_text p:nth-child(3) {
-  margin-bottom: 30px; }
+.about_text p:nth-child(4) {
+  margin-bottom: 50px; }
 
 .about_text p:nth-child(6) {
   margin-bottom: 30px; }

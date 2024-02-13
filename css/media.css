@@ -1,8 +1,43 @@
+@media only screen and (min-width: 3500px) {
+    .vera {
+        bottom: 50% !important;
+    }
+
+    .vera h1 {
+        font-size: 15em !important;
+    }
+
+    .vera a {
+        font-size: 5em !important;
+    }
+}
+
+
 
 @media only screen and (min-width: 2100px) {
     section {
     height: 45vw;
     }
+
+    .vera {
+        bottom: 40%;
+    }
+
+    .vera h1 {
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-weight: 400;
+        font-size: 12em;
+        line-height: 40px;
+        margin-bottom: 96px;
+    }
+
+    .vera a {
+        margin: 15px 12px 0 12px;
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-stretch: ultra-expanded;
+        font-weight: 200;
+        font-size: 4em;
+        color: #fff; }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -64,38 +99,6 @@
 
 }
 
-
-@media only screen and (max-width: 991px) {
-
-    .navbar-light .navbar-toggler {
-        border-color: rgba(0, 0, 0, 0);
-    }
-
-    .show {
-        /*margin-top: 20px;*/
-    }
-
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .navbar {
-        flex-direction: column-reverse;
-    }
-
-    .navsmall {
-        padding: 30px 50px 30px 50px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .about_text p:nth-child(3) {
-        margin-bottom: 23px;
-    }
-
-}
-
 @media only screen and (max-width: 1024px) {
 
     .about_text {
@@ -127,9 +130,12 @@
         background-color: #bec6cd;
     }
 
+    .vera {
+        bottom: 50%;
+    }
 
     .vera h1 {
-        font-size: 88px !important;
+        font-size: 6em; !important;
     }
 
     .about_vera p {
@@ -149,9 +155,52 @@
     }
 }
 
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 991px) {
+
+    .vera h1 {
+        font-size: 6em;
+        line-height: 40px;
+        margin-bottom: 56px; }
+
+    .vera a {
+        font-size: 2em;
+        }
+
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0, 0, 0, 0);
+    }
+
+    .show {
+        /*margin-top: 20px;*/
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column-reverse;
+    }
+
+    .navsmall {
+        padding: 30px 50px 30px 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about_text p:nth-child(3) {
+        margin-bottom: 23px;
+    }
 
 }
+
+@media only screen and (max-width: 820px) {
+    .vera {
+        bottom: 50%;
+    }
+}
+
 
 @media only screen and (max-width: 576px) {
     header {
@@ -163,13 +212,13 @@
         padding: 0;
     }
 
-
     .vera h1 {
-        font-size: 54px !important;
+        font-size: 3.4em;
+        margin-bottom: 12px;
     }
 
     .vera a {
-        font-size: 28px !important;
+        font-size: 1.75em;
     }
 
     .feedback_text {
@@ -195,12 +244,43 @@
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 430px) {
 .vera {
-    bottom: 36%;
+    bottom: 48%;
 }
     
     .vera h1 {
-        font-size: 36px !important;
+        font-size: 4em;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .vera a {
+        font-size: 1.75em;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+.vera h1 {
+    font-size: 3em;
+    line-height: 40px;
+    margin-bottom: 20px; }
+
+
+.vera a {
+    font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .vera h1 {
+        font-size: 2em;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .vera a {
+        font-size: 0.66em;
     }
 }
