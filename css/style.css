@@ -1,4 +1,9 @@
 @import url(bootstrap.css);
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #f4f2ee; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -30,24 +35,24 @@ header {
   height: 100vh;
   max-width: 100%; }
 
-body {
-  background-color: #f4f2ee;
-  height: 100vh; }
-
 .vera {
   position: absolute;
   right: 10%;
-  top: 40%;
+  top: 38%;
   left: 10%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   .vera h1 {
     font-family: "Microsoft Yi Baiti", sans-serif;
     font-weight: 400;
-    font-size: 7em;
+    font-size: 7rem;
     line-height: 40px;
     margin-bottom: 56px; }
   .vera a {
@@ -183,7 +188,7 @@ label {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #e3bc8a, #966b42, #966B42, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;

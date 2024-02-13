@@ -1,14 +1,14 @@
 @media only screen and (min-width: 3500px) {
     .vera {
-        bottom: 50% !important;
+        top: 40%;
     }
 
     .vera h1 {
-        font-size: 15em !important;
+        font-size: 15rem !important;
     }
 
     .vera a {
-        font-size: 5em !important;
+        font-size: 5rem !important;
     }
 }
 
@@ -20,13 +20,13 @@
     }
 
     .vera {
-        bottom: 40%;
+        top: 40%;
     }
 
     .vera h1 {
         font-family: "Microsoft Yi Baiti", sans-serif;
         font-weight: 400;
-        font-size: 12em;
+        font-size: 12rem;
         line-height: 40px;
         margin-bottom: 96px;
     }
@@ -36,7 +36,7 @@
         font-family: "Microsoft Yi Baiti", sans-serif;
         font-stretch: ultra-expanded;
         font-weight: 200;
-        font-size: 4em;
+        font-size: 4rem;
         color: #fff; }
 }
 
@@ -47,7 +47,7 @@
     }
 }
 
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 1024px) {
 
     header {
         padding: 0;
@@ -75,6 +75,26 @@
         max-width: 100vw;
     }
 
+    .about_text {
+        padding: 0 30px;
+    }
+
+    .about_vera p {
+        margin-bottom: 13px;
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-weight: 200;
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .feedback p {
+        margin-bottom: 5px;
+        font-family: "Microsoft Yi Baiti", sans-serif;
+        font-weight: 200;
+        font-size: 19px;
+        line-height: 24px;
+    }
+
     .feedback img {
         margin: 0 0 15px 0 !important;
         max-width: 100vw;
@@ -91,18 +111,8 @@
         margin: 10px 0 !important;
     }
 
-
-
     #myBtn {
         bottom: 170px;
-    }
-
-}
-
-@media only screen and (max-width: 1024px) {
-
-    .about_text {
-        padding: 0 30px;
     }
 
     #carouselMain {
@@ -129,47 +139,23 @@
     .carousel-indicators li {
         background-color: #bec6cd;
     }
-
-    .vera {
-        bottom: 50%;
-    }
-
-
-
-    .about_vera p {
-        margin-bottom: 13px;
-        font-family: "Microsoft Yi Baiti", sans-serif;
-        font-weight: 200;
-        font-size: 19px;
-        line-height: 24px;
-    }
-
-    .feedback p {
-        margin-bottom: 5px;
-        font-family: "Microsoft Yi Baiti", sans-serif;
-        font-weight: 200;
-        font-size: 19px;
-        line-height: 24px;
-    }
 }
+
+
 
 @media only screen and (max-width: 991px) {
 
     .vera h1 {
-        font-size: 6em;
+        font-size: 6rem;
         line-height: 40px;
         margin-bottom: 56px; }
 
     .vera a {
-        font-size: 2em;
+        font-size: 2rem;
         }
 
     .navbar-light .navbar-toggler {
         border-color: rgba(0, 0, 0, 0);
-    }
-
-    .show {
-        /*margin-top: 20px;*/
     }
 
     .navbar-nav {
@@ -193,14 +179,7 @@
 
 }
 
-@media only screen and (max-width: 820px) {
-    .vera {
-        bottom: 50%;
-    }
-}
-
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 617px) {
     header {
         padding: 0;
     }
@@ -211,12 +190,12 @@
     }
 
     .vera h1 {
-        font-size: 3.4em;
+        font-size: 3.4rem;
         margin-bottom: 12px;
     }
 
     .vera a {
-        font-size: 1.75em;
+        font-size: 1.1rem;
     }
 
     .feedback_text {
@@ -242,43 +221,40 @@
     }
 }
 
-@media only screen and (max-width: 430px) {
-.vera {
-    bottom: 48%;
-}
-    
-    .vera h1 {
-        font-size: 4em;
-        line-height: 40px;
-        margin-bottom: 20px;
-    }
+/*@media only screen and (max-width: 430px) {*/
 
-    .vera a {
-        font-size: 1.75em;
-    }
+/*    .vera h1 {*/
+/*        font-size: 3.4rem;*/
+/*        line-height: 40px;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
 
-}
+/*    .vera a {*/
+/*        font-size: 1.1rem;*/
+/*    }*/
+
+/*}*/
 
 @media only screen and (max-width: 390px) {
 .vera h1 {
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 40px;
     margin-bottom: 20px; }
 
 
 .vera a {
-    font-size: 1em;
+    font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 280px) {
     .vera h1 {
-        font-size: 2em;
+        font-size: 2rem;
         line-height: 40px;
         margin-bottom: 5px;
     }
 
     .vera a {
-        font-size: 0.66em;
+        font-size: 0.66rem;
     }
 }
