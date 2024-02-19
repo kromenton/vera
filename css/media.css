@@ -32,7 +32,7 @@
     }
 
     .vera a {
-        margin: 15px 12px 0 12px;
+        margin: 15px 65px 0 65px;
         font-family: "Microsoft Yi Baiti", sans-serif;
         font-stretch: ultra-expanded;
         font-weight: 200;
@@ -187,6 +187,11 @@
     .about {
         text-align: center;
     }
+
+    .contacts {
+        width: 33vw;
+        margin-top: 15px;
+    }
 }
 
 
@@ -207,6 +212,7 @@
 
     .vera a {
         font-size: 1.1rem;
+        margin: 15px 18px 0 18px;
     }
 
     .feedback_text {
@@ -214,7 +220,6 @@
     }
 
     footer .footer_logo .links ul li {
-        margin-right: 11px !important;
         margin-top: 16px;
         text-align: center;
     }
@@ -247,6 +252,7 @@
 
 .vera a {
     font-size: 1rem;
+    margin: 15px 16px 0 16px;
     }
 }
 

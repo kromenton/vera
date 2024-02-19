@@ -13,7 +13,6 @@ body, html {
 }
 
 
-
 @font-face {
   font-family: 'microsoft_yi_baitiregular';
   src: url('../fonts/msyi-webfont.woff2') format('woff2'),
@@ -84,7 +83,7 @@ header {
   }
 
   a {
-    margin: 15px 12px 0 12px;
+    margin: 15px 25px 0 25px;
     font-family: "Microsoft Yi Baiti", sans-serif;
     font-stretch: ultra-expanded;
     font-weight: 200;
@@ -143,7 +142,7 @@ header {
   text-align: left;
 }
 
-.about_text p:nth-child(4){
+.about_text p:nth-child(4) {
   margin-bottom: 50px;
 }
 
@@ -231,11 +230,11 @@ label {
 
 
   //background: linear-gradient(45deg, #e3bc8a, #966b42, #966B42,#48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-  background-image: linear-gradient(45deg, #714e45, #8f6756, #ac8167, #c89e78, #e3bc8a);
+  background-color: #F7B16B;
 
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -273,67 +272,80 @@ label {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
-.footer_line {
-  width: 100%;
-  height: 1px;
-  background-color: black;
-  margin-bottom: 28px;
-}
+
 
 footer {
   padding-top: 2rem;
   //padding-bottom: 1rem;
-}
 
-footer .footer_logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  .footer_line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 28px;
+  }
 
-  .logo {
-    font-size: 38px;
+  .footer_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .about {
+      width: 10vw;
+
+      ul li {
+        text-decoration-thickness: from-font;
+        list-style: none;
+      }
+    }
+
+    a {
+      color: #000;
+      font: 18px 'Microsoft Yi Baiti', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      text-decoration-thickness: from-font;
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 38px;
+    }
+
+    .links ul li {
+      color: #000;
+      font: 14px 'Microsoft Yi Baiti', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      list-style: none;
+    }
+
   }
 }
 
-footer .footer_logo a {
-  color: #000;
-  font: 18px 'Microsoft Yi Baiti', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  text-decoration-thickness: from-font;
-  text-decoration: none;
-}
-
 .contacts {
+  width: 10vw;
   display: flex;
+  justify-content: space-between;
 }
-
-footer .footer_logo .links ul li {
-  color: #000;
-  font: 14px 'Microsoft Yi Baiti', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  list-style: none;
-  padding-left: 22px;
-  padding-top: 30px;
-}
-
 
 footer .footer_logo .links ul a {
   text-decoration: none;
 }
 
-footer .footer_logo .about ul li {
-  text-decoration-thickness: from-font;
-  list-style: none;
-}
 
