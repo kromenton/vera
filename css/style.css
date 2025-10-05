@@ -112,11 +112,11 @@ header {
 
 .pricing_left {
   display: flex;
-  margin: 0 140px 11vh 140px; }
+  margin: 0 140px 0 140px; }
 
 .pricing_right {
   display: flex;
-  margin: 0 140px 11vh 140px;
+  margin: 0 140px 0 140px;
   flex-direction: row-reverse; }
 
 .left_text p {
@@ -268,11 +268,9 @@ footer {
     align-items: center;
     padding-left: 40px;
     padding-right: 40px; }
-    footer .footer_logo .about {
-      width: 10vw; }
-      footer .footer_logo .about ul li {
-        text-decoration-thickness: from-font;
-        list-style: none; }
+    footer .footer_logo .about ul li {
+      text-decoration-thickness: from-font;
+      list-style: none; }
     footer .footer_logo a {
       color: #000;
       font: 18px 'Microsoft Yi Baiti', sans-serif;
